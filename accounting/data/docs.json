@@ -1,0 +1,32 @@
+[
+  {
+    "id": "vat-blue-harbor",
+    "title": "VAT note — Blue Harbor LLC (sample)",
+    "source": "samples/vat-blue-harbor.md",
+    "text": "Blue Harbor LLC is a fictional wholesale trader. The standard VAT scheme applies: output VAT on taxable supplies at the standard rate, input VAT reclaim on qualifying costs. Exempt supplies (listed financial fees) do not carry output VAT. The entity is not on a flat-rate scheme. Quarterly VAT returns are due one month after each quarter end. Keep sales invoices and purchase ledgers for six years."
+  },
+  {
+    "id": "engagement-letter",
+    "title": "Engagement letter — year-end (sample)",
+    "source": "samples/engagement-letter.md",
+    "text": "This sample engagement letter covers corporate return preparation for fictional client North Pine Trading. Key deadlines in the engagement letter: client delivers the draft trial balance by 15 October; accountant delivers the review pack by 5 November; corporate filing deadline is 30 November. Out-of-scope items: transfer-pricing studies and litigation support. Fees are fixed for the listed schedules; extra work is quoted first."
+  },
+  {
+    "id": "return-attachments",
+    "title": "Corporate return pack — required attachments",
+    "source": "samples/return-attachments.md",
+    "text": "Required attachments for the sample corporate return pack: (1) signed trial balance, (2) general ledger export for the year, (3) fixed-asset register, (4) payroll summary including W-2 equivalents, (5) bank reconciliations for all accounts, (6) related-party transaction schedule, (7) prior-year return PDF. Optional: inventory count sheets if stock exceeds the materiality threshold in the engagement letter."
+  },
+  {
+    "id": "review-memo",
+    "title": "Review memo — risk flags (sample)",
+    "source": "samples/review-memo.md",
+    "text": "Sample review memo risk flags: (A) related-party rent lacks written agreement — request contract. (B) Large year-end accrual for bonuses without board minute — obtain approval evidence. (C) Cut-off testing on the last five sales invoices shows one post-period shipment — adjust revenue. (D) Obsolete inventory reserve looks light versus ageing — challenge with warehouse. No going-concern flag in this sample."
+  },
+  {
+    "id": "close-checklist",
+    "title": "Year-end close checklist (sample)",
+    "source": "samples/close-checklist.md",
+    "text": "Year-end close checklist: reconcile all bank and credit-card accounts; post accruals and prepayments; roll fixed assets and depreciation; count and value inventory; confirm related-party balances; review cut-off for sales and purchases; update deferred tax workings; prepare draft statements; run analytical review; partner sign-off before filing. Tick each item with initials and date."
+  }
+]

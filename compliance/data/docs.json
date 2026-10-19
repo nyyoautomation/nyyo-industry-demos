@@ -1,0 +1,38 @@
+[
+  {
+    "id": "dpa-sub",
+    "title": "DPA — subprocessor clause (sample)",
+    "source": "samples/dpa-subprocessor.md",
+    "text": "Sample DPA subprocessor clause: the processor may engage subprocessors listed in Annex C. New subprocessors require thirty days prior written notice to the controller. The controller may object on reasonable data-protection grounds. The processor remains liable for subprocessor performance. International transfers use an approved transfer tool named in Annex D."
+  },
+  {
+    "id": "retention",
+    "title": "Records retention policy (sample)",
+    "source": "samples/retention.md",
+    "text": "Retention periods in this sample: employee HR core files six years after exit; candidate data twelve months after the hiring decision; customer contracts seven years after end; security logs twelve months; marketing consent records while active plus three years; incident post-mortems five years. Destruction is logged."
+  },
+  {
+    "id": "sec-v3",
+    "title": "Information security policy v3 (sample)",
+    "source": "samples/sec-v3.md",
+    "text": "Information security policy version 3: passwords minimum twelve characters; MFA required on email only; laptops encrypt disk if classified as portable; phishing training annual. Retained for comparison."
+  },
+  {
+    "id": "sec-v4",
+    "title": "Information security policy v4 (sample)",
+    "source": "samples/sec-v4.md",
+    "text": "Information security policy version 4: passwords minimum fourteen characters; MFA required on email, VPN, and admin consoles; full-disk encryption on all company laptops; phishing training twice yearly; USB storage blocked by default. Compared to v3, MFA scope and encryption are stricter."
+  },
+  {
+    "id": "audit",
+    "title": "Open audit findings (sample)",
+    "source": "samples/audit-open.md",
+    "text": "Open audit findings: F-12 access review for finance app overdue — owner IT Security, due 30 November; F-18 vendor DPIA missing for analytics tool — owner Privacy, due 15 November; F-21 backup restore test not evidenced this year — owner Infrastructure, due 10 December. Closed findings are archived separately."
+  },
+  {
+    "id": "training",
+    "title": "Training obligations (sample)",
+    "source": "samples/training.md",
+    "text": "Training obligations: new joiners complete privacy and security modules within thirty days of start. All staff renew security awareness annually. Privileged admins complete extra secure-admin training before receiving elevated rights. Completion is tracked in the LMS; managers receive escalation at day forty if overdue."
+  }
+]

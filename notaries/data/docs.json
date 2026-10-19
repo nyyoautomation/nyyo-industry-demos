@@ -1,0 +1,38 @@
+[
+  {
+    "id": "sale-checklist",
+    "title": "Sale file checklist (sample)",
+    "source": "samples/sale-checklist.md",
+    "text": "Sale file checklist: engagement confirmed; buyer and seller IDs collected; title papers and prior deed reviewed; searches ordered and results filed; deposit held per instruction; draft deed circulated; completion statement issued; funds confirmed cleared; keys and codes protocol agreed; post-completion registration lodged. Tick with initials."
+  },
+  {
+    "id": "id-docs",
+    "title": "Identity documents required (sample)",
+    "source": "samples/id-docs.md",
+    "text": "Identity documents required in this sample SOP: for individuals — valid passport or national ID plus proof of address under three months. For companies — extract from the company register, articles, and ID of the signing officer with authority proof. Beneficial owners above the threshold need ID on file. Certified copies accepted when originals cannot be presented in person."
+  },
+  {
+    "id": "draft-a",
+    "title": "Draft summary A (sample)",
+    "source": "samples/draft-a.md",
+    "text": "Draft summary A: completion target 15 June; purchase price 380,000; deposit 38,000 already held; fixtures list includes fitted kitchen only; no retention. Special condition: seller removes workshop machinery before completion."
+  },
+  {
+    "id": "draft-b",
+    "title": "Draft summary B (sample)",
+    "source": "samples/draft-b.md",
+    "text": "Draft summary B: completion target 1 July; purchase price 380,000; deposit 38,000 held; fixtures include kitchen and garden shed; retention of 5,000 for roof works until certificate received. Compared to draft A, completion is later and a retention appears."
+  },
+  {
+    "id": "instruction",
+    "title": "Instruction letter — deadlines (sample)",
+    "source": "samples/instruction-letter.md",
+    "text": "Instruction letter deadlines: searches to be ordered within three business days of engagement; draft deed to client within ten business days of complete papers; funds for completion to clear one business day before completion; registration pack lodged within five business days after completion. Missed deadlines trigger a status email to the instructing party."
+  },
+  {
+    "id": "conflict",
+    "title": "Conflict check SOP — risk flags (sample)",
+    "source": "samples/conflict-check.md",
+    "text": "Conflict check risk flags: related-party seller and buyer sharing a director; prior matter against either party in the last twenty-four months; name on internal watchlist; sanction-list hit on a beneficial owner; same property file already open with another fee earner. Any flag pauses the file until a partner clearance note is filed."
+  }
+]

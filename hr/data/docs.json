@@ -1,0 +1,32 @@
+[
+  {
+    "id": "parental-leave",
+    "title": "Parental leave — employee handbook (sample)",
+    "source": "samples/parental-leave.md",
+    "text": "Sample handbook: eligible employees receive sixteen weeks of paid parental leave for the primary caregiver, and four weeks for the secondary caregiver, within the first twelve months after birth or adoption. Leave requests go to People Ops at least eight weeks in advance when possible. Health insurance continues during approved leave. This sample does not replace local statutory rights, which prevail if more generous."
+  },
+  {
+    "id": "remote-policy",
+    "title": "Remote work policy v2 (sample)",
+    "source": "samples/remote-v2.md",
+    "text": "Remote work policy version 2: employees who completed probation may work remote up to three days per week. Core hours are 10:00–16:00 in the team zone. Fully remote roles are listed in the job posting. Equipment stipend is 500 currency units per year. Version 1 allowed only one remote day and required a manager exception form; version 2 removes that form for the three-day hybrid pattern."
+  },
+  {
+    "id": "remote-v1",
+    "title": "Remote work policy v1 (archived sample)",
+    "source": "samples/remote-v1.md",
+    "text": "Remote work policy version 1 (archived): after probation, one remote day per week was allowed with a signed manager exception form. Fully remote was not offered. Core hours were 09:00–17:00. No equipment stipend. Retained for comparison demos only."
+  },
+  {
+    "id": "disciplinary",
+    "title": "Disciplinary procedure (sample)",
+    "source": "samples/disciplinary.md",
+    "text": "Disciplinary steps in order: (1) informal coaching note, (2) verbal warning recorded in the HR file, (3) written warning with improvement plan, (4) final written warning, (5) dismissal hearing. Gross misconduct may skip to a hearing. Employees may bring a companion to formal meetings. Appeals go to a director not involved in the case within five business days."
+  },
+  {
+    "id": "onboarding",
+    "title": "Onboarding checklist (sample)",
+    "source": "samples/onboarding.md",
+    "text": "Onboarding checklist: send offer pack; collect ID and tax forms; create email and SSO; ship laptop; assign buddy; schedule orientation day; enroll payroll and benefits; share handbook link; set 30-60-90 goals; book first 1:1 with manager. People Ops ticks each item in the tracker."
+  }
+]

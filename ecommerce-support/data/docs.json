@@ -1,0 +1,32 @@
+[
+  {
+    "id": "returns",
+    "title": "Return window policy (sample)",
+    "source": "samples/returns.md",
+    "text": "Return window: customers may return unused items in original packaging within thirty days of delivery for a full refund to the original payment method. Return shipping is free with the prepaid label in the account portal. Opened software and personalized goods are final sale. Refunds post within five business days after warehouse intake."
+  },
+  {
+    "id": "damaged",
+    "title": "Damaged goods process (sample)",
+    "source": "samples/damaged.md",
+    "text": "Damaged goods process: ask for clear photos of the item and outer packaging within seven days of delivery; issue a replacement or refund at customer choice; keep the damaged unit unless the carrier asks for inspection; open a carrier claim within the carrier time limit; note the order with code DMG in the helpdesk. Do not ask the customer to pay return postage for damage on arrival."
+  },
+  {
+    "id": "carrier-sla",
+    "title": "Carrier SLA comparison (sample)",
+    "source": "samples/carrier-sla.md",
+    "text": "Carrier Standard SLA: 5 to 8 business days domestic, tracking included, claim window fifteen days. Carrier Express SLA: 2 to 3 business days domestic, signature on delivery, claim window seven days, higher surcharge for remote areas. Express is not a same-day product."
+  },
+  {
+    "id": "macro-delay",
+    "title": "Macro — delayed shipment (sample)",
+    "source": "samples/macro-delay.md",
+    "text": "Approved macro for delayed shipment: apologize for the wait; paste the live tracking link; state the updated delivery estimate from the carrier scan; offer a 10 percent store credit if delay exceeds two business days beyond the quoted SLA; do not promise a specific new calendar day unless the carrier scan confirms it. Sign with the agent first name."
+  },
+  {
+    "id": "forbidden",
+    "title": "Forbidden promises list (sample)",
+    "source": "samples/forbidden.md",
+    "text": "Forbidden promises: never guarantee same-day delivery; never promise a medical or legal outcome; never say a refund already left the bank before finance confirms; never offer cash outside the refund path; never invent stock that the inventory system marks zero; never waive ID checks on high-value reships."
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "exclusions",
+    "title": "Shield Home — exclusions (sample)",
+    "source": "samples/shield-home-exclusions.md",
+    "text": "Sample product Shield Home exclusions: flood and groundwater unless a flood rider is attached; war and terrorism; gradual wear and tear; damage while the home is left unoccupied over sixty consecutive days without notice; business equipment over the listed sub-limit; intentional acts by the insured. Always read the full schedule for endorsements."
+  },
+  {
+    "id": "claim-steps",
+    "title": "Water damage claim SOP (sample)",
+    "source": "samples/claim-water.md",
+    "text": "Claim steps after water damage: (1) stop the source safely and mitigate further loss, (2) notify the broker or claims line within twenty-four hours, (3) photograph rooms and damaged items before disposal, (4) keep damaged items until the adjuster releases them, (5) submit the claim form with policy number, (6) obtain two repair quotes if requested, (7) await adjuster visit. Emergency drying may start after notification."
+  },
+  {
+    "id": "compare",
+    "title": "Shield Home vs Shield Home Plus (sample)",
+    "source": "samples/compare-products.md",
+    "text": "Shield Home covers fire, storm, theft with forced entry, and liability to third parties at base limits. Shield Home Plus adds accidental damage to buildings and contents, bicycle theft outside with a lock, freezer food spoilage, and a higher jewelry sub-limit. Plus does not remove flood exclusion unless the flood rider is bought."
+  },
+  {
+    "id": "claim-docs",
+    "title": "Documents to open a claim (sample)",
+    "source": "samples/claim-docs.md",
+    "text": "Required client documents to open a claim: policy number and schedule, government ID of the policyholder, dated photos of damage, purchase invoices for high-value items when available, police report number for theft, and a short incident narrative. Bank details for settlement are collected after liability is accepted."
+  },
+  {
+    "id": "sla",
+    "title": "Claims SLA (sample)",
+    "source": "samples/claims-sla.md",
+    "text": "SLA response time for new claims in this sample playbook: first human acknowledgement within four business hours during service days. Adjuster assignment within two business days for losses under the fast-track threshold. Complex losses receive a written plan within five business days. Escalation to a claims lead if SLA is missed."
+  }
+]

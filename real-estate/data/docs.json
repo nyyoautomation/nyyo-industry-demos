@@ -1,0 +1,32 @@
+[
+  {
+    "id": "mandate",
+    "title": "Sole mandate — exclusivity (sample)",
+    "source": "samples/mandate.md",
+    "text": "Sample sole selling mandate for fictional property Oak Street 12. Exclusivity term is ninety days from the signature date. Agency fee is three percent of the agreed sale price, paid by the seller on completion. During exclusivity the seller may not appoint another agent. Early termination requires written notice and reimbursement of documented marketing costs up to a capped amount."
+  },
+  {
+    "id": "disclosures",
+    "title": "Required disclosures before signature (sample)",
+    "source": "samples/disclosures.md",
+    "text": "Required disclosures in this sample pack before preliminary signature: energy performance certificate, flood-zone statement, asbestos screening for buildings before 1997, lead paint booklet where applicable, condominium rules and last three meeting minutes, outstanding works schedule, and seller identity documents. Missing items block signature in the agency playbook."
+  },
+  {
+    "id": "offers",
+    "title": "Offer comparison sheet (sample)",
+    "source": "samples/offers.md",
+    "text": "Sample offer A: 420,000 currency units, 10,000 earnest money, subject to financing within thirty days, inspection contingency seven days. Sample offer B: 412,000, 20,000 earnest money, no financing condition, inspection five days, preferred completion in forty-five days. Offer A is higher price; offer B is stronger on certainty of funds."
+  },
+  {
+    "id": "visit-report",
+    "title": "Visit report — risk notes (sample)",
+    "source": "samples/visit-report.md",
+    "text": "Visit report risks: moisture staining on the north basement wall; roof tiles cracked on the west slope; electrical panel lacks residual-current device on two circuits; garden fence encroaches roughly thirty centimeters onto the neighbor per verbal remark — verify survey. No active leak observed on visit day. Recommend specialist quotes before firm offer."
+  },
+  {
+    "id": "pre-sign",
+    "title": "Checklist before signature (sample)",
+    "source": "samples/pre-sign.md",
+    "text": "Checklist before signature: valid mandate in force; all required disclosures uploaded; buyer and seller IDs verified; deposit / earnest money instructions confirmed; financing or cash proof attached; inspection window agreed; draft preliminary contract reviewed by both sides; notary or closing agent appointed; completion target date set."
+  }
+]

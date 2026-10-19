@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cancel",
+    "title": "Appointment cancellation policy (sample)",
+    "source": "samples/cancel-policy.md",
+    "text": "Cancellation policy: patients should cancel at least twenty-four hours before the appointment. Late cancellations and no-shows may incur a fee equal to fifty percent of the visit charge, waived once per calendar year at reception discretion. Same-day medical emergencies documented by the patient are exempt. Reminder SMS go out forty-eight hours before."
+  },
+  {
+    "id": "vendor-sla",
+    "title": "Scheduling vendor SLA (sample)",
+    "source": "samples/vendor-sla.md",
+    "text": "Vendor SLA for the fictional scheduling tool: monthly uptime target of ninety-nine point five percent. If uptime falls below ninety-nine percent, the clinic receives a service credit of fifteen percent of that month fee. Scheduled maintenance windows are Sundays 02:00–04:00 local and do not count against uptime. Severity-1 incidents receive a human response within one hour."
+  },
+  {
+    "id": "insurance-cert",
+    "title": "Insurance certificate — liability (sample)",
+    "source": "samples/insurance-cert.md",
+    "text": "Sample liability insurance certificate for fictional clinic admin entity Harbor Wellness Admin LLC. The certificate expires on 31 December 2026. Coverage period ends that same date. Certificate holder is the building landlord. Broker contact is listed on page two. Renew sixty days before expiry and file the new PDF in the admin certificates folder."
+  },
+  {
+    "id": "portal-faq",
+    "title": "Patient portal FAQ — access (sample)",
+    "source": "samples/portal-faq.md",
+    "text": "Patient portal FAQ: password resets use the email on file; the link expires after thirty minutes; three failed logins lock the account for fifteen minutes; staff never ask for the portal password by phone; billing statements appear under Statements within two business days. This FAQ covers access only — no clinical advice."
+  },
+  {
+    "id": "clean-a",
+    "title": "Cleaning contract A (sample)",
+    "source": "samples/clean-a.md",
+    "text": "Cleaning contract A: weekly service every Tuesday evening, 800 currency units per month, includes waiting room and restrooms, supplies provided by vendor, thirty-day termination notice."
+  },
+  {
+    "id": "clean-b",
+    "title": "Cleaning contract B (sample)",
+    "source": "samples/clean-b.md",
+    "text": "Cleaning contract B: three visits per week, 1,450 currency units per month, includes waiting room, restrooms, and admin offices, clinic supplies liners, fourteen-day termination notice. Higher price and frequency than contract A."
+  }
+]
