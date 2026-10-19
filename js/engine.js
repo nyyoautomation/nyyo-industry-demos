@@ -83,6 +83,8 @@
         escapeHtml(cfg.name || "industry") +
         "</strong> synthetic sample corpus. Closed corpus · no open web. Click a suggestion or type a question. Citations show the exact passage."
     );
+    // Keep welcome fully visible (don't leave it clipped under the chat head)
+    messagesEl.scrollTop = 0;
   } catch (e) {
     addMsg("bot", "Could not load sample docs. Open this page via GitHub Pages.");
     return;

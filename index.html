@@ -13,14 +13,15 @@
 <link rel="icon" href="./assets/logo.png"/>
 </head>
 <body>
-<div class="wrap">
+<div class="wrap hub-page">
 
 <nav class="topbar">
   <a class="brand" href="./">
     <img src="./assets/logo.png" alt="" width="34" height="34"/>
     <span>Nyyo Automation</span>
   </a>
-  <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+  <div class="nav-actions">
+    <a class="btn btn-ghost btn-sm" href="#industries">Industries</a>
     <a class="btn btn-ghost btn-sm" href="https://github.com/nyyoautomation">GitHub</a>
     <a class="btn btn-primary btn-sm" href="https://laborx.com/freelancers/users/id475124" target="_blank" rel="noopener">Hire on LaborX</a>
   </div>
@@ -30,158 +31,173 @@
   <div class="hero-inner">
     <div class="tag">FREE · 1-click install kit included</div>
     <h1>Your documents, your AI — <span class="grad">by industry</span></h1>
-    <p style="color:var(--muted);max-width:56ch;margin:0">
+    <p class="hero-lead">
       Closed-corpus assistants trained on <strong>your</strong> files — not the open web.
       You own a local install. Optional low monthly maintenance. No SaaS subscription trap.
     </p>
-    <div class="proof">
-      <span><strong>8 industry demos</strong> · synthetic sample docs</span>
-      <span><strong>Local · offline</strong> by default</span>
-      <span><strong>Zero access</strong> to your data</span>
-      <span><strong>Remote · Worldwide</strong></span>
+    <div class="proof proof-pills" aria-label="Highlights">
+      <span class="proof-pill"><strong>8 demos</strong> synthetic samples</span>
+      <span class="proof-pill"><strong>Local · offline</strong> by default</span>
+      <span class="proof-pill"><strong>Zero access</strong> to your data</span>
+      <span class="proof-pill"><strong>Remote · Worldwide</strong></span>
     </div>
-    <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:14px">
-      <a class="btn btn-primary" href="https://laborx.com/freelancers/users/id475124" target="_blank" rel="noopener">Hire on LaborX</a>
-      <a class="btn btn-ghost" href="https://github.com/nyyoautomation">GitHub</a>
+    <div class="hero-ctas">
+      <a class="btn btn-primary" href="#industries">Browse industries</a>
+      <a class="btn btn-ghost" href="https://laborx.com/freelancers/users/id475124" target="_blank" rel="noopener">Hire on LaborX</a>
     </div>
   </div>
 </header>
 
-<div class="trust-banner">
-  <span class="pill"><span class="live-dot"></span> Closed corpus · no open web</span>
-  <span>Each demo answers only from its synthetic sample pack. Production = your docs on your machine.</span>
-</div>
-
-<section class="card-block">
-  <h2>Pick your industry</h2>
-  <p>Law-firm and construction-tender demos are built separately. These pages cover the other verticals.</p>
+<section class="trust-strip" aria-label="Trust points">
+  <div class="trust-item"><span class="trust-ico" aria-hidden="true">🔒</span><div><strong>Closed corpus</strong><span>No open-web search</span></div></div>
+  <div class="trust-item"><span class="trust-ico" aria-hidden="true">📴</span><div><strong>Offline</strong><span>Works unplugged</span></div></div>
+  <div class="trust-item"><span class="trust-ico" aria-hidden="true">🛡️</span><div><strong>Zero access</strong><span>We never see your files</span></div></div>
+  <div class="trust-item"><span class="trust-ico" aria-hidden="true">🔑</span><div><strong>You own it</strong><span>Cancel SAV, keep the tool</span></div></div>
 </section>
 
-<div class="hub-grid">
-    <a class="hub-card" href="./accounting/">
-      <div class="ico">📊</div>
+<section id="industries" class="industries-sec">
+  <div class="sec-head">
+    <h2>Pick your industry</h2>
+    <p>Try a live closed-corpus demo — synthetic sample docs only. Production runs on <em>your</em> machine.</p>
+  </div>
+  <div class="filter-row" id="filters" role="tablist" aria-label="Filter industries">
+    <button type="button" class="filter-chip active" data-filter="all" role="tab" aria-selected="true">All</button>
+    <button type="button" class="filter-chip" data-filter="finance" role="tab">Finance &amp; tax</button>
+    <button type="button" class="filter-chip" data-filter="people" role="tab">People</button>
+    <button type="button" class="filter-chip" data-filter="property" role="tab">Property</button>
+    <button type="button" class="filter-chip" data-filter="risk" role="tab">Risk &amp; legal</button>
+    <button type="button" class="filter-chip" data-filter="ops" role="tab">Ops &amp; support</button>
+  </div>
+  <div class="hub-grid" id="hub-grid">
+    <a class="hub-card" href="./accounting/" data-cat="finance">
+      <div class="hub-card-top"><span class="ico" aria-hidden="true">📊</span><span class="hub-live"><span class="live-dot"></span> Live</span></div>
       <h3>Accounting firms</h3>
-      <p>Closed-corpus assistant for tax shops and accounting teams. Sample policies only — your real client files stay…</p>
-      <span class="go">Open live demo →</span>
+      <p>Ask engagement letters, close checklists, return packs.</p>
+      <span class="hub-btn">Open live demo</span>
     </a>
-    <a class="hub-card" href="./hr/">
-      <div class="ico">👥</div>
+    <a class="hub-card" href="./hr/" data-cat="people">
+      <div class="hub-card-top"><span class="ico" aria-hidden="true">👥</span><span class="hub-live"><span class="live-dot"></span> Live</span></div>
       <h3>HR / People ops</h3>
-      <p>Closed-corpus assistant for people teams. Synthetic handbook only — employee PII stays minimized and local in …</p>
-      <span class="go">Open live demo →</span>
+      <p>Handbook, leave, remote policy, onboarding checklists.</p>
+      <span class="hub-btn">Open live demo</span>
     </a>
-    <a class="hub-card" href="./real-estate/">
-      <div class="ico">🏠</div>
+    <a class="hub-card" href="./real-estate/" data-cat="property">
+      <div class="hub-card-top"><span class="ico" aria-hidden="true">🏠</span><span class="hub-live"><span class="live-dot"></span> Live</span></div>
       <h3>Real estate agencies</h3>
-      <p>Closed-corpus assistant for agencies. Synthetic mandates and visit reports — transaction files stay confidenti…</p>
-      <span class="go">Open live demo →</span>
+      <p>Mandates, disclosures, offer compare, visit risks.</p>
+      <span class="hub-btn">Open live demo</span>
     </a>
-    <a class="hub-card" href="./insurance/">
-      <div class="ico">🛡️</div>
+    <a class="hub-card" href="./insurance/" data-cat="risk">
+      <div class="hub-card-top"><span class="ico" aria-hidden="true">🛡️</span><span class="hub-live"><span class="live-dot"></span> Live</span></div>
       <h3>Insurance brokers</h3>
-      <p>Closed-corpus assistant for brokers. Synthetic product and claims docs — client files stay on your systems.…</p>
-      <span class="go">Open live demo →</span>
+      <p>Exclusions, claim SOPs, product compare, SLAs.</p>
+      <span class="hub-btn">Open live demo</span>
     </a>
-    <a class="hub-card" href="./notaries/">
-      <div class="ico">📜</div>
+    <a class="hub-card" href="./notaries/" data-cat="property">
+      <div class="hub-card-top"><span class="ico" aria-hidden="true">📜</span><span class="hub-live"><span class="live-dot"></span> Live</span></div>
       <h3>Notaries / conveyancing</h3>
-      <p>Closed-corpus assistant for conveyancing desks. Synthetic checklists only — high-confidentiality files belong …</p>
-      <span class="go">Open live demo →</span>
+      <p>Sale checklists, ID packs, deed draft compare.</p>
+      <span class="hub-btn">Open live demo</span>
     </a>
-    <a class="hub-card" href="./compliance/">
-      <div class="ico">⚖️</div>
+    <a class="hub-card" href="./compliance/" data-cat="risk">
+      <div class="hub-card-top"><span class="ico" aria-hidden="true">⚖️</span><span class="hub-live"><span class="live-dot"></span> Live</span></div>
       <h3>In-house legal / compliance</h3>
-      <p>Closed-corpus assistant for counsel and compliance. Synthetic policies — production installs stay inside your …</p>
-      <span class="go">Open live demo →</span>
+      <p>DPAs, retention, policy diffs, open audit findings.</p>
+      <span class="hub-btn">Open live demo</span>
     </a>
-    <a class="hub-card" href="./ecommerce-support/">
-      <div class="ico">🛒</div>
-      <h3>E-commerce customer support</h3>
-      <p>Closed-corpus assistant for support teams. Synthetic macros and policies — live store data stays in your helpd…</p>
-      <span class="go">Open live demo →</span>
+    <a class="hub-card" href="./ecommerce-support/" data-cat="ops">
+      <div class="hub-card-top"><span class="ico" aria-hidden="true">🛒</span><span class="hub-live"><span class="live-dot"></span> Live</span></div>
+      <h3>E-commerce support</h3>
+      <p>Returns, damaged goods, carrier SLAs, approved macros.</p>
+      <span class="hub-btn">Open live demo</span>
     </a>
-    <a class="hub-card" href="./clinic-admin/">
-      <div class="ico">🏥</div>
+    <a class="hub-card" href="./clinic-admin/" data-cat="ops">
+      <div class="hub-card-top"><span class="ico" aria-hidden="true">🏥</span><span class="hub-live"><span class="live-dot"></span> Live</span></div>
       <h3>Clinic administration</h3>
-      <p>Admin documents only (appointments, billing SOPs, vendor contracts). No patient health records in this demo. W…</p>
-      <span class="go">Open live demo →</span>
-    </a></div>
-
-
-<section class="card-block" id="own-it-hub">
-  <h2>Own it, run it locally</h2>
-  <p>Unlike big SaaS subscriptions, you buy a tool that <strong>belongs to you</strong>. Cancel maintenance anytime — the install stays on your side.</p>
-  <ul>
-    <li>One-time setup on your Mac / PC / office mini-PC</li>
-    <li>Local LLM + local search over <em>your</em> documents</li>
-    <li>Answers with citations to exact passages</li>
-    <li>Optional low monthly maintenance (updates, model upgrades, support)</li>
-    <li><strong>Free 1-click install kit</strong> included with every offer</li>
-  </ul>
+      <p>Admin SOPs only — cancellations, vendors, portal FAQ.</p>
+      <span class="hub-btn">Open live demo</span>
+    </a>
+  </div>
 </section>
 
+<section class="card-block how-sec" id="how">
+  <h2>How it works</h2>
+  <div class="steps-3">
+    <div class="step-card"><div class="step-num">1</div><h3>Try the demo</h3><p>Click an industry. Ask the sample chips. See answers with cited passages — closed corpus, no open web.</p></div>
+    <div class="step-card"><div class="step-num">2</div><h3>We install locally</h3><p>Signed installer + open source your IT can audit. Optional walkthrough on video (you share screen) or on site. NDA available.</p></div>
+    <div class="step-card"><div class="step-num">3</div><h3>You own it</h3><p>Your docs stay on your machine. Offline OK. Pay after you see it work. Optional low monthly maintenance — cancel anytime.</p></div>
+  </div>
+</section>
+
+<section class="card-block" id="hosting">
+  <h2>Where it runs</h2>
+  <div class="price-box">
+    <div class="price-tier featured">
+      <div class="label">Recommended</div>
+      <div class="amount">Installed at your office</div>
+      <div class="note">Local · works offline · you own the install · we never see your data.</div>
+    </div>
+    <div class="price-tier">
+      <div class="label">On request</div>
+      <div class="amount">Hosted for you</div>
+      <div class="note">Later option on a reputable EU host under your account. No fake cert claims.</div>
+    </div>
+  </div>
+</section>
+
+<section class="card-block kit-sec" id="install-kit">
+  <h2>Free 1-click install kit included</h2>
+  <p>Every paid build ships with a free install kit — you only pay for the build.</p>
+  <div class="kit-chips">
+    <span>Folder watchers</span><span>Word / PDF packs</span><span>SharePoint / Drive</span>
+    <span>n8n / Make JSON</span><span>Sheets + scripts</span><span>Desktop installer</span>
+  </div>
+</section>
 
 <section class="card-block zero-access" id="zero-access">
   <h2>Zero access to your data</h2>
   <p>We never need remote control of your machines, and we never ask for passwords or access codes.</p>
   <div class="za-grid">
-    <div class="za-item"><strong>Signed installer + open code</strong>Your IT can audit the GitHub source before install. We ship a signed installer — no black-box remote agent.</div>
-    <div class="za-item"><strong>Works fully offline</strong>Unplug Wi‑Fi after install: the assistant still answers from your local docs. No cloud call required.</div>
-    <div class="za-item"><strong>We never see your files</strong>Your corpus stays on your machine (or your own host). Nyyo has no backdoor and no telemetry on document content.</div>
-    <div class="za-item"><strong>You choose updates</strong>Updates are files you download when you want. Nothing auto-pushes into your office without your action.</div>
-    <div class="za-item"><strong>Support without control</strong>Video call where <em>you</em> share your screen if needed. We never take remote control (no AnyDesk / TeamViewer from us).</div>
-    <div class="za-item"><strong>Try risk-free first</strong>This page uses synthetic sample docs. Then run the same pattern on your own files locally before you pay.</div>
-    <div class="za-item"><strong>Install in front of you</strong>Optional: we walk the install live on a video call, or on site. You watch every step.</div>
-    <div class="za-item"><strong>NDA + pay after it works</strong>Signed NDA available. You pay the setup fee after you see it answering on your machine.</div>
+    <div class="za-item"><strong>Signed installer + open code</strong>Your IT can audit the GitHub source before install.</div>
+    <div class="za-item"><strong>Works fully offline</strong>Unplug Wi‑Fi — it still answers from local docs.</div>
+    <div class="za-item"><strong>We never see your files</strong>No backdoor, no document telemetry to Nyyo.</div>
+    <div class="za-item"><strong>You choose updates</strong>You download updates when you want.</div>
+    <div class="za-item"><strong>Support without control</strong>Video call where <em>you</em> share screen — never remote control.</div>
+    <div class="za-item"><strong>NDA + pay after it works</strong>Try the online demo first, then local, then pay.</div>
   </div>
-</section>
-
-
-<section class="card-block" id="hosting">
-  <h2>Where it runs</h2>
-  <div class="price-box">
-    <div class="price-tier">
-      <div class="label">Recommended</div>
-      <div class="amount">Installed at your office</div>
-      <div class="note">Local · works offline · you own the install · we never see your data. Best default for confidential files.</div>
-    </div>
-    <div class="price-tier">
-      <div class="label">On request</div>
-      <div class="amount">Hosted for you</div>
-      <div class="note">Later option on a reputable EU host under your account. Short hop if you are not ready for local hardware yet. No fake cert claims.</div>
-    </div>
-  </div>
-</section>
-
-
-<section class="card-block security-panel" id="security">
-  <h2>Security — honest panel</h2>
-  <div class="sec-row"><div class="sec-k">This demo</div><div class="sec-v">Runs in your browser. Sample + local-upload files never leave this tab. No Nyyo server receives your uploads.</div></div>
-  <div class="sec-row"><div class="sec-k">Production</div><div class="sec-v">Default: client-owned local install. Optional: hosted on a reputable EU host under your account (on request).</div></div>
-  <div class="sec-row"><div class="sec-k">Training</div><div class="sec-v">Your documents are not used to train public models.</div></div>
-  <div class="sec-row"><div class="sec-k">Corpus</div><div class="sec-v">Closed corpus only — no open-web search unless you explicitly enable a hybrid mode later.</div></div>
-  <div class="sec-row"><div class="sec-k">Certifications</div><div class="sec-v">We do <strong>not</strong> claim ISO / SOC / HDS / SecNumCloud. If your firm already holds them, the local install can sit inside your existing controls.</div></div>
-  <div class="honest">This is a demo assistant. It can miss context or mis-rank passages. A qualified human must review before any professional decision.</div>
-</section>
-
-
-<section class="card-block" id="pricing-hub">
-  <h2>Pricing — no subscription trap</h2>
-  <p>Price on request · one-time setup + optional low monthly maintenance · <strong>free install kit included</strong>.</p>
 </section>
 
 <section class="cta-band">
-  <h2 style="margin:0 0 6px;font-size:1.15rem">Ready to own your document AI?</h2>
-  <p style="margin:0;color:var(--muted);font-size:.9rem">Fixed scope · you own it · we never need remote control of your PC</p>
+  <h2>Ready to own your document AI?</h2>
+  <p>Fixed scope · free install kit · you own the tool · Remote · Worldwide</p>
   <div class="btns">
     <a class="btn btn-primary" href="https://laborx.com/freelancers/users/id475124" target="_blank" rel="noopener">Hire on LaborX</a>
+    <a class="btn btn-ghost" href="#industries">Browse demos</a>
   </div>
 </section>
 
 <footer class="footer">
-  <p>Nyyo Automation · Remote · Worldwide · English demos</p>
-  <p>Demo only — human review required · No patient health data in clinic demo · Neutral sample data</p>
+  <p>Nyyo Automation · Remote · Worldwide · English demos · No signup to try</p>
+  <p>Demo only — human review required · Clinic demo = admin docs only (no patient health data)</p>
 </footer>
 </div>
+<script>
+(function(){
+  const chips = document.querySelectorAll('.filter-chip');
+  const cards = document.querySelectorAll('.hub-card');
+  chips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      chips.forEach(c => { c.classList.remove('active'); c.setAttribute('aria-selected','false'); });
+      chip.classList.add('active'); chip.setAttribute('aria-selected','true');
+      const f = chip.dataset.filter;
+      cards.forEach(card => {
+        const show = f === 'all' || card.dataset.cat === f;
+        card.hidden = !show;
+        card.style.display = show ? '' : 'none';
+      });
+    });
+  });
+})();
+</script>
 </body>
 </html>
